@@ -1,0 +1,12 @@
+messages:
+    sun:
+        text: "§a%p made the weather sunny in %w."
+        enable: true
+    rain:
+        text: "§a%p made the rain come in %w."
+        enable: true
+    thunder:
+        text: "§a%p made the thunder arrive in %w."
+        enable: true
+alias:
+    console: "Admin"

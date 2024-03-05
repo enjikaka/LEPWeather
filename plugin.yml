@@ -1,0 +1,25 @@
+name: LEPWeather
+main: se.enji.lep.Weather
+author: enjikaka
+website: http://enji.se
+version: 0.1
+
+commands:
+    weather:
+        description: Changes the weather.
+        usage: Type /<command> (sun/clear/rain/thunder) (world) to change the weather.
+        permission: lep.weather.*
+
+permissions:
+    lep.weather.*:
+        description: Gives access to all Weather commands.
+        children:
+            lep.weather.sun: true
+            lep.weather.rain: true
+            lep.weather.thunder: true
+    lep.weather.sun:
+        description: Allows you to change the weather to clear/sun.
+    lep.weather.rain:
+        description: Allows you to change the weather to rain.
+    lep.weather.thunder:
+        description: Allows you to change the weather to thunder.
